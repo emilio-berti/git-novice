@@ -286,18 +286,6 @@ particular set of files in `.gitignore`.
 
 ## [Open Science]({{ page.root }}{% link _episodes/10-open.md %})
 
-## [Licensing]({{ page.root }}{% link _episodes/11-licensing.md %})
-
-We teach about licensing because questions about who owns what, or can use
-what, arise naturally once we start talking about using public services like
-GitHub to store files. Also, the discussion gives learners a chance to catch
-their breath after what is often a frustrating couple of hours.
-
-The Creative Commons family of licenses is recommended for many types of
-works (including software documentation and images used in software) but not
-software itself. Creative Commons [recommends][cc-faq-software] a
-software-specific license instead.
-
 ## [Citation]({{ page.root }}{% link _episodes/12-citation.md %})
 
 ## [Hosting]({{ page.root }}{% link _episodes/13-hosting.md %})
