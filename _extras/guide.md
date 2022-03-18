@@ -82,7 +82,7 @@ working in teams or not, because it is
     *    [Code School][code-school] has a free interactive course, [Try Git][try-git].
     *    for instructors, [the Git parable][git-parable] is useful background reading
 
-## [Automated Version Control]({{ page.root }}{% link _episodes/01-basics.md %})
+## [Automated Version Control]({{ page.root }}{% link _episodes/03-basics.md %})
 
 *   Ask, "Who uses 'undo' in their editor?" All say "Me". 'Undo' is the simplest
     form of version control.
@@ -97,7 +97,7 @@ working in teams or not, because it is
     and, "come on this really has to be the last version" to motivate version
     control as a better way to collaborate and as a better way to back work up.
 
-## [Setting Up Git]({{ page.root }}{% link _episodes/02-setup.md %})
+## [Setting Up Git]({{ page.root }}{% link _episodes/03-setup.md %})
 
 *   We suggest instructors and students use `nano` as the text editor for this
     lessons because
@@ -118,7 +118,7 @@ working in teams or not, because it is
     using `git branch -M main` if there are currently commits in the repository,
     or `git checkout -b main` if there are no commits/the repository is completely empty.
 
-## [Creating a Repository]({{ page.root }}{% link _episodes/03-create.md %})
+## [Creating a Repository]({{ page.root }}{% link _episodes/04-create.md %})
 
 *   When you do `git status`, Mac users may see a `.DS_Store` file showing as
     untracked. This a file that Mac OS creates in each directory.
@@ -140,7 +140,7 @@ working in teams or not, because it is
     The challenge suggests that it is a bad idea to create a Git repo inside another repo.
     For more discussion on this topic, please see [this issue][repos-in-repos].
 
-## [Tracking Changes]({{ page.root }}{% link _episodes/04-changes.md %})
+## [Tracking Changes]({{ page.root }}{% link _episodes/05-changes.md %})
 
 *   It's important that learners do a full commit cycle by themselves (make
     changes, `git diff`, `git add`, and `git commit`). The "`bio` repository"
@@ -160,12 +160,12 @@ working in teams or not, because it is
 *   This is a good moment to show a log within a Git GUI. If you skip it
     because you're short on time, show it once in GitHub.
 
-## [Ignoring Things]({{ page.root }}{% link _episodes/06-ignore.md %})
+## [Ignoring Things]({{ page.root }}{% link _episodes/08-ignore.md %})
 
 Just remember that you can use wildcards and regular expressions to ignore a
 particular set of files in `.gitignore`.
 
-## [Remotes in GitHub]({{ page.root }}{% link _episodes/07-github.md %})
+## [Remotes in GitHub]({{ page.root }}{% link _episodes/09-github.md %})
 
 *   Make it clear that Git and GitHub are not the same thing: Git is an open
     source version control tool, GitHub is a company that hosts Git
@@ -188,7 +188,7 @@ particular set of files in `.gitignore`.
     `git push -u origin main`, will have slightly different output, including
     the line `Branch main set up to track remote branch main from origin by rebasing.`
 
-## [Collaborating]({{ page.root }}{% link _episodes/08-collab.md %})
+## [Collaborating]({{ page.root }}{% link _episodes/10-collab.md %})
 
 *   Decide in advance whether all the learners will work in one shared
     repository, or whether they will work in pairs (or other small groups) in
@@ -256,7 +256,7 @@ particular set of files in `.gitignore`.
 *   Learners may have slightly different output from `git push` and `git pull`
     depending on the version of git, and if upstream (`-u`) is used.
 
-## [Conflicts]({{ page.root }}{% link _episodes/09-conflict.md %})
+## [Conflicts]({{ page.root }}{% link _episodes/12-conflict.md %})
 
 *   Expect the learners to make mistakes. Expect *yourself* to make mistakes.
     This happens because it is late in the lesson and everyone is tired.
@@ -284,9 +284,11 @@ particular set of files in `.gitignore`.
 *  Keep in mind that depending on the Git version used, the outputs for
    `git push` and `git pull` can vary slightly.
 
-## [Open Science]({{ page.root }}{% link _episodes/10-open.md %})
+## [Open Science]({{ page.root }}{% link _episodes/13-open.md %})
 
-## [Hosting]({{ page.root }}{% link _episodes/13-hosting.md %})
+## [Citation]({{ page.root }}{% link _episodes/14-citation.md %})
+
+## [Hosting]({{ page.root }}{% link _episodes/15-hosting.md %})
 
 A common concern for learners is having their work publicly available on
 GitHub.  While we encourage open science, sometimes private repos are the

@@ -93,6 +93,12 @@ by acting as a shareable electronic lab notebook for computational work:
 *   With a version control system such as Git,
     the entire history of the repository is easy to archive for perpetuity.
 
+> ## Making Code Citable
+>
+> Anything that is hosted in a version control repository (data, code, papers,
+> etc.) can be turned into a citable object. You'll learn how to do this in
+> [the later episode on Citation]({{ page.root }}{% link _episodes/14-citation.md %}).
+{: .callout}
 
 > ## How Reproducible Is My Work?
 >
