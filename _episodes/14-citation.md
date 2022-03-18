@@ -1,6 +1,6 @@
 ---
 title: Citation
-teaching: 2
+teaching: 5
 exercises: 0
 questions:
 - "How can I make my work easier to cite?"
