@@ -286,8 +286,6 @@ particular set of files in `.gitignore`.
 
 ## [Open Science]({{ page.root }}{% link _episodes/10-open.md %})
 
-## [Citation]({{ page.root }}{% link _episodes/12-citation.md %})
-
 ## [Hosting]({{ page.root }}{% link _episodes/13-hosting.md %})
 
 A common concern for learners is having their work publicly available on

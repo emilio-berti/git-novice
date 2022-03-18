@@ -90,15 +90,9 @@ by acting as a shareable electronic lab notebook for computational work:
     intellectual work directly to the changes that spring from them.
 *   You can refer to what you used in your research to obtain your
     computational results in a way that is unique and recoverable.
-*   With a version control system such as Git, 
+*   With a version control system such as Git,
     the entire history of the repository is easy to archive for perpetuity.
 
-> ## Making Code Citable
->
-> Anything that is hosted in a version control repository (data, code, papers, 
-> etc.) can be turned into a citable object. You'll learn how to do this in
-> [the later episode on Citation]({{ page.root }}{% link _episodes/12-citation.md %}).
-{: .callout}
 
 > ## How Reproducible Is My Work?
 >
@@ -122,12 +116,12 @@ by acting as a shareable electronic lab notebook for computational work:
 
 > ## How to Track Large Data or Image Files using Git?
 >
-> Large data or image files such as `.md5` or `.psd` file types can be tracked within 
+> Large data or image files such as `.md5` or `.psd` file types can be tracked within
 > a github repository using the [Git Large File Storage](https://git-lfs.github.com)
-> open source extension tool.  This tool automatically uploads large file contents to 
+> open source extension tool.  This tool automatically uploads large file contents to
 > a remote server and replaces the file with a text pointer within the github repository.
-> 
-> Try downloading and installing the Git Large File Storage extension tool, then add 
+>
+> Try downloading and installing the Git Large File Storage extension tool, then add
 > tracking of a large file to your github repository.  Ask a colleague to clone your
 > repository and describe what they see when they access that large file.   
 {: .challenge}
