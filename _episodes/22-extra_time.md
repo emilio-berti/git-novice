@@ -7,5 +7,5 @@ questions:
 objectives:
 - "Use this time to ask all other burning questions you have"
 keypoints:
-- "
+- ""
 ---

@@ -1,3 +1,8 @@
+---
+layout: page
+title: Pre-workshop Email
+---
+
 Dear participants thank you for having registered for the "Introduction to git and GitHub, for a fool-proof programming" course!
 
 We (Emilio Berti and Matthias Grenié) are very happy to have you onboard!
@@ -10,7 +15,7 @@ The main purpose of the course is to teach git. To install git download the prog
 Please fill the [pre-workshop survey](https://picsoung.typeform.com/to/kfUc1f7i) (4 questions, 5 min), this would help us know better what is your previous knowledge and let you choose between additional topics that you would like to be covered.
 
 **Time and Location**
-The workshop will be in-person, starting at **9:30 pm** on **Thursday 24th** in the **Beehive Room** (ground floor of iDiv main building). The course will end the same day at **5:00 pm**.
+The workshop will be in-person, starting at **9:30 pm** on **Thursday 24th March** in the **Beehive Room** (ground floor of iDiv main building). The course will end the same day at **5:00 pm**.
 
 **Material needed**
 To follow the workshop you'll need a computer with git installed (see above). We will also use RStudio git pane, so please install RStudio. Finally you will need a [GitHub account](https://github.com/), if you don't have one, please create one.
