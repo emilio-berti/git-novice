@@ -4,6 +4,25 @@ root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
 
+Welcome to the course "Introduction to git and GitHub, for a fool-proof programming"!
+The goal of the course is to basic understanding of git, how to use it with GitHub, and in interaction with your scientific workflow.
+
+## Time and Location
+
+The workshop will be in-person, starting at **9:30 pm** on **Thursday 24th** in the **Beehive Room** (ground floor of iDiv main building). The course will end the same day at **5:00 pm**.
+
+## Pre-workshop Survey
+
+Please fill the [pre-workshop survey](https://picsoung.typeform.com/to/kfUc1f7i) (4 questions, 5 min), this would help us know better what is your previous knowledge and let you choose between additional topics that you would like to be covered.
+
+
+## Material needed
+
+To follow the workshop you'll need a computer with git installed (see above). We will also use RStudio git pane, so please install RStudio. Finally you will need a [GitHub account](https://github.com/), if you don't have one, please create one.
+
+
+## Story setting
+
 Wolfman and Dracula have been hired by Universal Missions (a space
 services spinoff from Euphoric State University) to investigate if it
 is possible to send their next planetary lander to Mars.  They want to

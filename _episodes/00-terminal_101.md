@@ -1,6 +1,6 @@
 ---
 title: Beginning with the Terminal
-teaching: 10
+teaching: 15
 exercises: 0
 questions:
 - "How do I navigate in command line"
