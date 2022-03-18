@@ -1,11 +1,11 @@
 ---
-title: "Supplemental: Git Large File Storage"
-teaching: 12
+title: "Supplemental: git Large File Storage"
+teaching: 15
 exercises: 0
 questions:
-- "How can I use Git with RStudio?"
+- "How can I use git with large files?"
 objectives:
-- "Understand how to use Git from RStudio."
+- "Understand how to work with git lfs."
 keypoints:
-- "Using RStudio's Git integration allows you to version control a project over time."
+- "Using git LFS allows you to version control large files but comes with hosting issues."
 ---
