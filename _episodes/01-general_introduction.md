@@ -12,7 +12,7 @@ keypoints:
 
 ## Structure of the course
 
-This course is organized to be taught on a single. The schedule is rather flexible to adapt best to your pace.
+This course is organized to be taught on a single day. The schedule is rather flexible to adapt best to your pace.
 
 As much as possible this course is designed to be a hands-on experience with as many practical exercises as possible.
 
