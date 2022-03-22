@@ -13,19 +13,145 @@ keypoints:
 
 ## What is the Terminal?
 
-Jenny Bryan's citation
+> The shell is a program on your computer whose job is to run other programs. Pseudo-synonyms are “terminal”, “command line”, and “console”. There’s a whole StackExchange thread on the differences (What is the difference between Terminal, Console, Shell, and Command Line?), but I don’t find it to be terribly enlightening. Your mileage may vary.
 
+– Jenny Bryan in [*Happy Git with R*](https://happygitwithr.com/shell.html)
 
+The terminal is a command-line program that let you run other programs.
+
+Why would people use command-line rather than **G**raphical **U**ser **I**nterface?
+Well one answer is that are more stable that interface, and they tend
+to crash less (because they don't have to deal with the graphical part!).
+Also some computers, like online servers or high performance clusters,
+are almost only accessible through command-line. So it may useful to familiarize
+yourself with the shell.
 
 ## How can I use it?
 
+If you're on Mac or Linux you should have a program called "Terminal",
+if you're on Windows launch the "Git Bash" application.
 
 ## Navigating into folders
 
-`pwd`
+Once you've launched it you're going to see a black window with a blinking cursor.
+Welcome to the terminal!
 
-`ls`
+We're going to go through some basic commands to navigate on your computer.
 
-`cd`
+Because you're navigating into the files and folders of your computer,
+it can be useful to know exactly where your are. For this use the `pwd` command
+which is short for **p**resent **w**orking **d**irectory. It indicates precisely
+where your are.
+
+
+~~~
+$ pwd
+~~~
+{: .language-bash}
+
+~~~
+/c/Users/ke76dimu
+~~~
+{: .output}
+
+Slashes `/` indicate nested folders. Here (on a Windows computer) it shows that
+I am on the `C:/` drive (shorthened in `/c/` here) within the `ke76dimu` Which
+is in the `Users` folder.
+
+Whenever you get lost in the command-line, you can always use `pwd` to remind
+yourself of where you are.
+
+The **l**i**s**t command `ls` lists the files and folders available in the
+specified folder.
+
+~~~
+$ ls
+~~~
+{: .language-bash}
+
+~~~
+ Contacts/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Pictures/
+ R/
+ Searches/
+ Videos/
+ Zotero/
+~~~
+{: .output}
+
+All the names that finish with a slash `/` indicate a folder. Depending on
+type of terminal you are using, the folders can also be represented in another
+color like in blue.
+
+You can look at what's inside a folder by adding its names after the command:
+
+~~~
+$ ls Documents
+~~~
+{: .language-bash}
+
+~~~
+144101.pdf                                  'My Music'@
+'AMF_Unikurse_April 2022.pdf'               'My Videos'@
+desktop.ini                                 projects/
+R/                                          feature_extraction/                         
+'WiSe 2021_22_AMF_Unikurse_filled.pdf'      Livres/
+Zoom/                                       'Matthias Material'/
+~~~
+{: .output}
+
+We can see a file `144101.pdf` and many folders (like `R/`) note that folders
+with spaces in their names are indicated with single quote ''
+like `'Matthias Material'/`.
+
+You can re-check that your working directory hasn't changed by reusing the `pwd`
+command.
+
+~~~
+$ pwd
+~~~
+{: .language-bash}
+
+~~~
+/c/Users/ke76dimu
+~~~
+{: .output}
+
+
+`ls -a`   
+
+To change directory we use the **c**hange **d**irectory command `cd`.
+
+Let's say we want to into the `Documents/` folder. We type the `cd` command
+followed by the folder name.
+
+~~~
+$ cd Documents/
+~~~
+{: .language-bash}
+
+Recheck where we are with `pwd`
+
+~~~
+$ pwd
+~~~
+{: .language-bash}
+
+~~~
+/c/Users/ke76dimu/Documents
+~~~
+{: .output}
+
+**Note**: because it can be cumbersome to type entire folder names,
+most terminal software offer autocompletion of folder names based on typing
+the beginning of the name then typing the Tabulation (Tab) key on the keyboard.
+
+What about if you want to back in a folder that is the parent of your folder?
+Let's say we want to go back where we were instead of the `Documents/` folder.
+Well, you can use the special folder name `..` which
 
 `rm`

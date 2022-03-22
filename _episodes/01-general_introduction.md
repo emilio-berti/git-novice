@@ -16,14 +16,14 @@ This course is organized to be taught on a single day. The schedule is rather fl
 
 As much as possible this course is designed to be a hands-on experience with as many practical exercises as possible.
 
-## Ice breaker
+## Presentations
 
 > Ice breaker
 > -------------
-> 
-> -   Give your name
 >
-> -   Give the name of your group (Theory in Biodiversity, Biodiversity Conservation, etc.)
+> -   Tell us your name
+>
+> -   Tell us the name of your group (Theory in Biodiversity, Biodiversity Conservation, etc.)
 >
 > -   Define your research using a single word (e.g., "legumes").
 >
