@@ -10,9 +10,9 @@ keypoints:
 - "Using `git clone` from a project you have on GitHub to synchronize on EVE."
 ---
 
-Working on EVE is not much different compared to working on your machine, except that you will have to collaborate ... with yourself! Basically, once connected to EVE, you need to clone the remote git repository and keep working as you would do on your machine. Remember that the two git repository on EVE and the one on your laptop are not directly connected, but can communicate only through remote. In other words, remember to push changes on EVE and pull them on your local laptop, or you will have conflicts when trying to push/pull from remote.
+Working on EVE is not very different than working on your machine, except that you will have to collaborate ... with yourself! Basically, once connected to EVE, you need to clone the remote git repository and keep working as you would do on your machine. However, remember that the git repository on EVE and the one on your laptop are not directly connected, but can communicate only through remote. In other words, if you change something on both the EVE repository and your laptop, when you try to push and pull you will have conflicts. To avoid this, push the changes made on EVE and pull them on your local laptop before start working on your laptop again.
 
-Once connected to a frontend, clone the remote repository:
+Once connected to EVE, clone the remote repository:
 
 ~~~
 $ git clone https://github.com/emilio-berti/idiv-git-introduction.git
@@ -46,7 +46,7 @@ nothing to commit, working tree clean
 ~~~
 {: .output}
 
-As scripts to submit jobs and paths within files are specific to the HPC, it's better to switch to a new branch instead of working on the main branch. Switch to a new branch called `HPC`:
+An alternative to avoid conflicts is to create another branch specific for EVE. As scripts to submit jobs and paths within files are specific to the HPC, it may also be better to switch to a new branch instead of working on the main branch. Switch to a new branch called `HPC`:
 
 ~~~
 git checkout -b HPC
