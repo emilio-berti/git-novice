@@ -124,8 +124,42 @@ $ pwd
 ~~~
 {: .output}
 
+Some files and folders may be special and are not shown by default.
+To display them we use the `-a` option of the `ls` command:
 
-`ls -a`   
+~~~
+$ ls -a
+~~~
+{: .language-bash}
+
+~~~
+./
+../
+.atom/
+.bash_history
+.bash_profile
+.bashrc
+.gitconfig
+.ssh/
+.vim/
+.viminfo
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Pictures/
+R/
+Searches/
+Videos/
+Zotero/
+~~~
+{: .output}   
+
+You can now see several files and folders that names begin with a dot `.`
+like `.bashrc` and `.vim/`. We're not going to detail their usefulness,
+the important thing to remember is that `ls -a` gives you a bigger list of
+files, including hidden files.
 
 To change directory we use the **c**hange **d**irectory command `cd`.
 
@@ -154,9 +188,10 @@ $ pwd
 > ## File and Folder names autocompletion
 >
 > It can become cumbersome to type entire folder names.
-> That's why most terminal softwares offer autocompletion of folder names
+> That's why most terminal software offer autocompletion of folder names
 > based on typing the beginning of the name then typing the Tabulation (Tab) key
-> on the keyboard.
+> on the keyboard (The one on the left of the top row of letters on your
+> keyboard).
 {: .callout}
 
 What about if you want to back in a folder that is the parent of your folder?
