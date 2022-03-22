@@ -115,23 +115,32 @@ origin   git@github.com:vlad/planets.git (push)
 We'll discuss remotes in more detail in the next episode, while
 talking about how they might be used for collaboration.
 
-## 3. Tokens
-<!-- Before Dracula can connect to a remote repository, he needs to set up a way for his computer to authenticate with GitHub so it knows it’s him trying to connect to his remote repository. 
+## 3. Personal access tokens (PAT)
 
-We are going to set up the method that is commonly used by many different services to authenticate access on the command line.  This method is called Secure Shell Protocol (SSH).  SSH is a cryptographic network protocol that allows secure communication between computers using an otherwise insecure network.  
+Personal access tokens (PATs) is the recommended way for authentication to GitHub instead of passwords. Tokens are more flexible than passwords, meaning that a token can be authorized to perform certain operations, but not others. Tokens are also disposable, i.e. when they are not needed anymore they can be easily deleted. To create a token go to `Settings -> <> Developer settings -> Personal access tokens -> Generate new token`. 
 
-SSH uses what is called a key pair. This is two keys that work together to validate access. One key is publicly known and called the public key, and the other key called the private key is kept private. Very descriptive names.
+![Create first token](../fig/token.png)
 
-You can think of the public key as a padlock, and only you have the key (the private key) to open it. You use the public key where you want a secure method of communication, such as your GitHub account.  You give this padlock, or public key, to GitHub and say “lock the communications to my account with this so that only computers that have my private key can unlock communications and send git commands as my GitHub account.”  
+You have to specify an expiration date of your tokes. For most cases, an expiration date of 1 year is fine. As a security precaution, GitHub automatically removes personal access tokens that haven't been used in a year.
 
-What we will do now is the minimum required to set up the SSH keys and add the public key to a GitHub account.
- -->
+You can assign scopes to tokens, which define what the token can have access to. A token with no assigned scopes can only access public information. To use your token to access repositories from the command line, select repo.
 
- <!-- Put tokens explanations here -->
+If you see something similar to the image below, than congratulations! You have created your first token.
+
+![Create first token](../fig/token2.png)
+
+It is time to use the token. Copy it right away, because it will not be possible to see the token afterwards.
 
 ## 4. Push local changes to a remote
 
-Now that authentication is setup, we can return to the remote.  This command will push the changes from
+Now that the token is created, we can return to the remote. Before pushing to remote, it's best to tell git to save the token:
+
+~~~
+git config credential.helper store
+~~~
+{: .language-bash}
+
+Next, it's time to push the changes from
 our local repository to the repository on GitHub:
 
 ~~~
@@ -139,8 +148,7 @@ $ git push origin main
 ~~~
 {: .language-bash}
 
-Since Dracula set up a passphrase, it will prompt him for it.  If you completed advanced settings for your authentication, it 
-will not prompt for a passphrase. 
+This will ask for a password; simply paste your token and press Enter. Because you tell git to save the token, next time you pull/push to remote, you won't need to reinsert the token.
 
 ~~~
 Enumerating objects: 16, done.
@@ -154,55 +162,6 @@ To https://github.com/vlad/planets.git
  * [new branch]      main -> main
 ~~~
 {: .output}
-
-> ## Proxy
->
-> If the network you are connected to uses a proxy, there is a chance that your
-> last command failed with "Could not resolve hostname" as the error message. To
-> solve this issue, you need to tell Git about the proxy:
->
-> ~~~
-> $ git config --global http.proxy http://user:password@proxy.url
-> $ git config --global https.proxy https://user:password@proxy.url
-> ~~~
-> {: .language-bash}
->
-> When you connect to another network that doesn't use a proxy, you will need to
-> tell Git to disable the proxy using:
->
-> ~~~
-> $ git config --global --unset http.proxy
-> $ git config --global --unset https.proxy
-> ~~~
-> {: .language-bash}
-{: .callout}
-
-> ## Password Managers
->
-> If your operating system has a password manager configured, `git push` will
-> try to use it when it needs your username and password.  For example, this
-> is the default behavior for Git Bash on Windows. If you want to type your
-> username and password at the terminal instead of using a password manager,
-> type:
->
-> ~~~
-> $ unset SSH_ASKPASS
-> ~~~
-> {: .language-bash}
->
-> in the terminal, before you run `git push`.  Despite the name, [Git uses
-> `SSH_ASKPASS` for all credential
-> entry](https://git-scm.com/docs/gitcredentials#_requesting_credentials), so
-> you may want to unset `SSH_ASKPASS` whether you are using Git via SSH or
-> https.
->
-> You may also want to add `unset SSH_ASKPASS` at the end of your `~/.bashrc`
-> to make Git default to using the terminal for usernames and passwords.
-{: .callout}
-
-Our local and remote repositories are now in this state:
-
-![GitHub Repository After First Push](../fig/github-repo-after-first-push.svg)
 
 > ## The '-u' Flag
 >
