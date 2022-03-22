@@ -10,8 +10,11 @@ objectives:
 keypoints:
 -   "Use `pwd` to show in which folder you are."
 -   "Use `ls` to list the files of a folder"
+-   "Use `ls -a` to show **all** files and folders"
 -   "Use `cd` to change the folder"
 -   "Use `cd ..` to go back one folder"
+-   "Use `mkdir` to create a folder"
+-   "Use `touch` to create an empty file"
 ---
 
 ## What is the Terminal?
@@ -206,5 +209,34 @@ $ cd ..
 
 ~~~
 /c/Users/ke76dimu/Documents
+~~~
+{: .output}
+
+With the terminal we can also create folders with the
+**m**a**k**e **dir**irectory command `mkdir`.
+
+~~~
+$ mkdir gitintro
+$ cd gitintro
+$ pwd
+~~~
+{: .language-bash}
+
+~~~
+/c/Users/ke76dimu/Documents/gitintro
+~~~
+{: .output}
+
+We're also going to use a command to create files easily.
+`touch` is a command that let you create empty files to edit them afterwards.
+
+~~~
+$ touch terminal-101.txt
+$ ls
+~~~
+{: .language-bash}
+
+~~~
+terminal-101.txt
 ~~~
 {: .output}
