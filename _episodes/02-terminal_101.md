@@ -3,12 +3,15 @@ title: Beginning with the Terminal
 teaching: 15
 exercises: 0
 questions:
-- "How do I navigate in command line"
+- "How do I navigate in command line?"
 objectives:
-- "Configure `git` the first time it is used on a computer."
-- "Understand the meaning of the `--global` configuration flag."
+- "Discover the terminal"
+- "Use simple commands to navigate your computer in command line"
 keypoints:
--   "Use `git config` with the `--global` option to configure a user name, email address, editor, and other preferences once per machine."
+-   "Use `pwd` to show in which folder you are."
+-   "Use `ls` to list the files of a folder"
+-   "Use `cd` to change the folder"
+-   "Use `cd ..` to go back one folder"
 ---
 
 ## What is the Terminal?
@@ -146,12 +149,27 @@ $ pwd
 ~~~
 {: .output}
 
-**Note**: because it can be cumbersome to type entire folder names,
-most terminal software offer autocompletion of folder names based on typing
-the beginning of the name then typing the Tabulation (Tab) key on the keyboard.
+
+
+> ## File and Folder names autocompletion
+>
+> It can become cumbersome to type entire folder names.
+> That's why most terminal softwares offer autocompletion of folder names
+> based on typing the beginning of the name then typing the Tabulation (Tab) key
+> on the keyboard.
+{: .callout}
 
 What about if you want to back in a folder that is the parent of your folder?
 Let's say we want to go back where we were instead of the `Documents/` folder.
-Well, you can use the special folder name `..` which
+Well, you can use the special folder name `..` which defines the
+**parent folder** of the folder you're in.
 
-`rm`
+~~~
+$ cd ..
+~~~
+{: .language-bash}
+
+~~~
+/c/Users/ke76dimu/Documents
+~~~
+{: .output}
