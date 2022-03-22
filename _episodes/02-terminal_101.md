@@ -10,8 +10,11 @@ objectives:
 keypoints:
 -   "Use `pwd` to show in which folder you are."
 -   "Use `ls` to list the files of a folder"
+-   "Use `ls -a` to show **all** files and folders"
 -   "Use `cd` to change the folder"
 -   "Use `cd ..` to go back one folder"
+-   "Use `mkdir` to create a folder"
+-   "Use `touch` to create an empty file"
 ---
 
 ## What is the Terminal?
@@ -124,8 +127,42 @@ $ pwd
 ~~~
 {: .output}
 
+Some files and folders may be special and are not shown by default.
+To display them we use the `-a` option of the `ls` command:
 
-`ls -a`   
+~~~
+$ ls -a
+~~~
+{: .language-bash}
+
+~~~
+./
+../
+.atom/
+.bash_history
+.bash_profile
+.bashrc
+.gitconfig
+.ssh/
+.vim/
+.viminfo
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Pictures/
+R/
+Searches/
+Videos/
+Zotero/
+~~~
+{: .output}   
+
+You can now see several files and folders that names begin with a dot `.`
+like `.bashrc` and `.vim/`. We're not going to detail their usefulness,
+the important thing to remember is that `ls -a` gives you a bigger list of
+files, including hidden files.
 
 To change directory we use the **c**hange **d**irectory command `cd`.
 
@@ -154,9 +191,10 @@ $ pwd
 > ## File and Folder names autocompletion
 >
 > It can become cumbersome to type entire folder names.
-> That's why most terminal softwares offer autocompletion of folder names
+> That's why most terminal software offer autocompletion of folder names
 > based on typing the beginning of the name then typing the Tabulation (Tab) key
-> on the keyboard.
+> on the keyboard (The one on the left of the top row of letters on your
+> keyboard).
 {: .callout}
 
 What about if you want to back in a folder that is the parent of your folder?
@@ -171,5 +209,34 @@ $ cd ..
 
 ~~~
 /c/Users/ke76dimu/Documents
+~~~
+{: .output}
+
+With the terminal we can also create folders with the
+**m**a**k**e **dir**irectory command `mkdir`.
+
+~~~
+$ mkdir gitintro
+$ cd gitintro
+$ pwd
+~~~
+{: .language-bash}
+
+~~~
+/c/Users/ke76dimu/Documents/gitintro
+~~~
+{: .output}
+
+We're also going to use a command to create files easily.
+`touch` is a command that let you create empty files to edit them afterwards.
+
+~~~
+$ touch terminal-101.txt
+$ ls
+~~~
+{: .language-bash}
+
+~~~
+terminal-101.txt
 ~~~
 {: .output}
