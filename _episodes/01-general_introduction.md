@@ -7,7 +7,7 @@ questions:
 objectives:
 - "Be comfortable in the course"
 keypoints:
--   "The course material will be provided through a website and with corresponding PDF."
+- "The course material will be provided through a website and with corresponding PDF."
 ---
 
 ## Structure of the course
@@ -20,9 +20,39 @@ As much as possible this course is designed to be a hands-on experience with as 
 
 > Ice breaker
 > -------------
+> 
+> -   Give your name
+>
+> -   Give the name of your group (Theory in Biodiversity, Biodiversity Conservation, etc.)
 >
 > -   Define your research using a single word (e.g., "legumes").
 >
-> -   What did you wanted to be when you were a child?
+> -   Tell us one thing you're proud of
 >
->  {: .challenge}
+{: .challenge}
+
+
+## Learning Goals
+
+* Being able to navigate through your computer in the Terminal
+* Setup a project with git and save its history
+* Synchronize the local project with GitHub and manage conflicts
+* Be able to use git from RStudio
+* Synchronize your code with the EVE High Performing Computer cluster
+* Explore code on GitHub with your history
+* Be able to generate a DOI from Zenedo with a GitHub repository
+
+
+## The way we'll teach
+
+* Two teachers alternating
+* Live-coding as much as possible (show how code works)
+* Do take notes if you want to
+* Everything (material & exercises) will be provided at the end of the workshop
+* Questions anytime
+* First time running this course, so be understanding :)
+
+
+## Schedule
+
+Please refer to the main page
