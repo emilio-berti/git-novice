@@ -1,5 +1,5 @@
 ---
-title: "Supplemental: Navigating and Searching code on GitHub"
+title: "Navigating and Searching code on GitHub"
 teaching: 20
 exercises: 0
 questions:
