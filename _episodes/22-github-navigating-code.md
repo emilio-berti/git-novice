@@ -1,6 +1,6 @@
 ---
 title: "Navigating and Searching code on GitHub"
-teaching: 20
+teaching: 25
 exercises: 0
 questions:
 - "How can I use GitHub to navigate my code?"

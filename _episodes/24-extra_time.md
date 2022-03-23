@@ -1,6 +1,6 @@
 ---
 layout: break
 title: "Extra time"
-teaching: 30
+teaching: 45
 exercises: 0
 ---
