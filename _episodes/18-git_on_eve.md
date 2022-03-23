@@ -8,6 +8,8 @@ objectives:
 - "Understand how to synchronize your git project on EVE."
 keypoints:
 - "Using `git clone` from a project you have on GitHub to synchronize on EVE."
+- "Push/pull before making changes to both the EVE and local git directories to avoid conflicts"
+- "Alterntively, create a new branch to work on EVE"
 ---
 
 Working on EVE is not very different than working on your machine, except that you will have to collaborate ... with yourself! Basically, once connected to EVE, you need to clone the remote git repository and keep working as you would do on your machine. However, remember that the git repository on EVE and the one on your laptop are not directly connected, but can communicate only through remote. In other words, if you change something on both the EVE repository and your laptop, when you try to push and pull you will have conflicts. To avoid this, push the changes made on EVE and pull them on your local laptop before start working on your laptop again.
