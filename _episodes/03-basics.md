@@ -7,7 +7,7 @@ questions:
 objectives:
 - "Understand the principles of version control software"
 keypoints:
--   "Version control software let's you track modifications in documents in a structured way"
+- "Version control software let's you track modifications in documents in a structured way"
 ---
 
 

@@ -25,9 +25,7 @@ As much as possible this course is designed to be a hands-on experience with as 
 >
 > -   Tell us the name of your group (Theory in Biodiversity, Biodiversity Conservation, etc.)
 >
-> -   Define your research using a single word (e.g., "legumes").
->
-> -   Tell us one thing you're proud of
+> -   Define your research using a single word (e.g., "legumes")
 >
 {: .challenge}
 
@@ -55,4 +53,4 @@ As much as possible this course is designed to be a hands-on experience with as 
 
 ## Schedule
 
-Please refer to the main page
+Please refer to the [home page]({{ page.root }}{% link index.md %})
