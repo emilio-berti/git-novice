@@ -79,4 +79,5 @@ facilitating collaboration among different people.
 > *distributed*, meaning that they do not need a centralized server to
 > host the repository. These modern systems also include powerful
 > merging tools that make it possible for multiple authors to work on
-> the same files concurrently. {: .callout}
+> the same files concurrently.
+{: .callout}
