@@ -15,6 +15,9 @@ keypoints:
 -   "Use `cd ..` to go back one folder"
 -   "Use `mkdir` to create a folder"
 -   "Use `touch` to create an empty file"
+-   "Use `history` to show recent commands"
+-   "Use up/down arrows to check latest commands"
+-   "Use Ctrl+R to start a reverse search"
 ---
 
 ## What is the Terminal?
@@ -240,3 +243,9 @@ $ ls
 terminal-101.txt
 ~~~
 {: .output}
+
+
+> ## Recent commands
+>
+> Use up and down arrows to navigate the latest commands you launched. You can see the last 1,000 commands passed to the terminal using `history`. You can also start a reverse search pressing `Ctrl + R`; start typing to see the latest relevant commands.
+{: .callout}
