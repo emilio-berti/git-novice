@@ -20,4 +20,6 @@ We modified some of the material and added some episodes on:
 ## Contact information
 
 If you have any question regarding the course you can contact
-[Emilio Berti](@emilio-berti) and/or [Matthias Grenié](@Rekyt)
+[Emilio Berti](https://emilio-berti.github.io/)
+([@emilio-berti](https://github.com/emilio-berti)) and/or
+[Matthias Grenié](https://rekyt.github.io/) ([@Rekyt](https://github.com/Rekyt))
