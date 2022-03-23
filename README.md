@@ -6,7 +6,8 @@ never had experiences with it.
 
 ## Course Material
 
-It heavily on material from the Software Carpentry
+It heavily on material from the
+[Software Carpentry](https://software-carpentry.org/)
 [Git for novices lesson](https://swcarpentry.github.io/git-novice/)
 we're grateful for that.
 
