@@ -15,9 +15,6 @@ keypoints:
 -   "Use `cd ..` to go back one folder"
 -   "Use `mkdir` to create a folder"
 -   "Use `touch` to create an empty file"
--   "Use `history` to show recent commands"
--   "Use up/down arrows to check latest commands"
--   "Use Ctrl+R to start a reverse search"
 ---
 
 ## What is the Terminal?
